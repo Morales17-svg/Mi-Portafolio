@@ -1,378 +1,357 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Mi Portafolios</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Portafolio de Pablo Morales" />
+    <meta name="author" content="Pablo Morales" />
+    <title>Mi Portafolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <style>
+        .masthead {
+            position: relative;
+            background-image: url('assets/img/presentacion.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Cubrir todo el área */
+            background-position: center; /* Centrar la imagen */
+            height: 100vh; /* Altura completa de la ventana */
+            color: white; /* Color del texto */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Dev. Pablo Morales</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Inicio</a></li>
-                <li class="sidebar-nav-item"><a href="#about">Sobre mí</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Habilidades</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Proyectos</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contactos</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <style>
-                .masthead {
-                    position: relative;
-                    background-image: url('assets/img/presentacion.jpg'); /* Imagen de fondo */
-                    background-size: cover; /* Cubrir todo el área */
-                    background-position: center; /* Centrar la imagen */
-                    height: 100vh; /* Altura completa de la ventana */
-                    color: white; /* Color del texto */
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                }
-        
-                /* Fondo semi-transparente para mejorar la legibilidad del texto */
-                .masthead::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
-                    z-index: 1; /* Asegura que el fondo esté detrás del texto */
-                }
-        
-                .container {
-                    position: relative;
-                    z-index: 2; /* Asegura que el texto esté encima del fondo */
-                }
-            </style>
-            
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Pablo Morales</h1>
-                <h3 class="mb-5"><em>
-                    Soy un desarrollador web entusiasta, dedicado a diseñar experiencias digitales que sean tanto funcionales como visualmente atractivas</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">Conoce más sobre mí</a>
-            </div>
-        </header>
-        
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>Sobre mí</h2>
-                        <p class="lead mb-5">
-                            Soy Pablo Morales, estudiante de Ingeniería Informática y desarrollador web. Me especializo en el desarrollo de aplicaciones web y tengo experiencia en HTML, CSS, JavaScript y Python. También gestiono bases de datos con MySQL y aplico programación orientada a objetos en mis proyectos. Además de la programación, disfruto de los videojuegos, el fútbol y tocar la guitarra. Siempre busco aprender y mejorar en mis habilidades, y estoy comprometido con crear soluciones digitales innovadoras y funcionales.
-                        </p>
-                        <a class="btn btn-dark btn-xl" href="#services">Mis habilidades</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        /* Fondo semi-transparente para mejorar la legibilidad del texto */
+        .masthead::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
+            z-index: 1; /* Asegura que el fondo esté detrás del texto */
+        }
 
-        <!-- Services-->
-        <section class="content-section text-center" id="services" style="background-color: #2a8c99; padding: 40px 0;">
-            <div class="container">
-                <div class="content-section-heading">
-                    <h2 class="text-secondary mb-5" style="color: #ffc107; font-size: 2.5rem;">Mi Stack</h2>
-                </div>
-                <div class="d-flex flex-column align-items-center">
-                    <!-- Item 1 -->
-                    <div class="mb-5 d-flex flex-column align-items-center">
-                        <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
-                             style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
-                            <i class="bi bi-filetype-html"></i>
-                        </div>
-                        <h4 style="color: #fff; text-align: center;"><strong>HTML & CSS</strong></h4>
-                    </div>
-                    
-                    <!-- Item 2 -->
-                    <div class="mb-5 d-flex flex-column align-items-center">
-                        <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
-                             style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
-                            <i class="bi bi-filetype-js"></i>
-                        </div>
-                        <h4 style="color: #fff; text-align: center;"><strong>JavaScript</strong></h4>
-                    </div>
-                    
-                    <!-- Item 3 -->
-                    <div class="mb-5 d-flex flex-column align-items-center">
-                        <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
-                             style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
-                            <i class="bi bi-filetype-py"></i>
-                        </div>
-                        <h4 style="color: #fff; text-align: center;"><strong>Python</strong></h4>
-                    </div>
-                    
-                    <!-- Item 4 -->
-                    <div class="mb-5 d-flex flex-column align-items-center">
-                        <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
-                             style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
-                            <i class="bi bi-git"></i>
-                        </div>
-                        <h4 style="color: #fff; text-align: center;"><strong>Version Control</strong></h4>
-                    </div>
-                    
-                    <!-- Item 5 -->
-                    <div class="mb-5 d-flex flex-column align-items-center">
-                        <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
-                             style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
-                            <i class="bi bi-terminal"></i>
-                        </div>
-                        <h4 style="color: #fff; text-align: center;"><strong>Linux</strong></h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Callout-->
-        <section class="callout">
-            <style>
-                .callout {
-                    position: relative;
-                    background-image: url('assets/img/CV.jpg'); /* Imagen de fondo */
-                    background-size: cover; /* Cubrir todo el área */
-                    background-position: center; /* Centrar la imagen */
-                    padding: 60px 0; /* Espaciado superior e inferior */
-                    color: white; /* Color del texto */
-                    text-align: center; /* Centrar el texto */
-                }
-        
-                /* Fondo semi-transparente para mejorar la legibilidad del texto */
-                .callout::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
-                    z-index: 1; /* Asegura que el fondo esté detrás del texto */
-                }
-        
-                .container {
-                    position: relative;
-                    z-index: 2; /* Asegura que el texto esté encima del fondo */
-                }
-        
-                button {
-                    background-color: #007bff; /* Color del botón */
-                    color: white; /* Color del texto del botón */
-                    border: none; /* Sin borde */
-                    padding: 10px 20px; /* Espaciado interno del botón */
-                    font-size: 16px; /* Tamaño del texto del botón */
-                    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-                    transition: background-color 0.3s; /* Transición de color */
-                }
-        
-                button:hover {
-                    background-color: #0056b3; /* Color del botón al pasar el mouse */
-                }
-            </style>
-        
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    ¡Descarga mi CV!
-                </h2>
-                <p class="lead mb-3">Conoce más sobre mi experiencia y habilidades.</p>
-                <a href="assets/Curriculum - Pablo Morales.pdf" download="">
-                    <button>Descarga mi CV</button>
-                </a>
-            </div>
-        </section>
-        
-        <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <style>
-                /* Define un tamaño fijo para todos los cuadros */
-                .portfolio-item {
-                    position: relative;
-                    display: block;
-                    width: 100%;
-                    height: 300px; /* Ajusta la altura según sea necesario */
-                    overflow: hidden; /* Evita que la imagen se desborde */
-                }
-        
-                /* Ajusta la imagen para que ocupe todo el cuadro */
-                .portfolio-item img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-        
-                /* Mejora la legibilidad de las letras y ajusta el fondo */
-                .caption {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                    opacity: 0;
-                    transition: opacity 0.3s ease-in-out;
-                }
-        
-                .caption-content {
-                    color: #fff; /* Blanco para mejor contraste */
-                    font-weight: bold;
-                    opacity: 1; /* Totalmente visible */
-                }
-        
-                /* Efecto hover para mostrar el texto */
-                .portfolio-item:hover .caption {
-                    opacity: 1;
-                }
-        
-                /* Fondo de la sección igual al footer */
-                #portfolio {
-                    background-color: #333; /* Cambia el color según el que uses en tu footer */
-                    padding: 60px 0; /* Espaciado superior e inferior */
-                }
-            </style>
-        
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Proyectos Recientes</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Morales17-svg/TAREAS_BOOTCAMP/tree/main/Semana%203/tarea3">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">JavaScript</div>
-                                    <p class="mb-0">Aprendinedo logica con JavaScript</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/logica.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Morales17-svg/TAREAS_BOOTCAMP/tree/main/Semana%204">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">API</div>
-                                    <p class="mb-0">Utilizando API por primera vez</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/api.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Morales17-svg/TAREAS_BOOTCAMP/tree/main/Semana%205">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Python</div>
-                                    <p class="mb-0">Utilizando Python para crear sistemas de compras y guardados de productos en una base de datos</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/python.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Morales17-svg/Primavera">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Mi Primera Página Web</div>
-                                    <p class="mb-0">Página Web inspirada en la fecha 21 de septiembre, inicio de la primavera</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/primavera.jpg" alt="..." />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
+        .container {
+            position: relative;
+            z-index: 2; /* Asegura que el texto esté encima del fondo */
+        }
 
-        <section id="contact" class="text-center py-5">
-            <h5 class="text-warning">CONTACTO</h5>
-            <h2 class="text-purple fw-bold">Ponte en contacto conmigo</h2>
-            
-            <form action="https://formspree.io/f/tu_id_de_formulario" method="POST" class="mx-auto mt-4" style="max-width: 500px;">
-              <div class="mb-3">
-                <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required>
-              </div>
-              <div class="mb-3">
-                <input type="email" name="email" class="form-control" placeholder="Tu Correo Electrónico" required>
-              </div>
-              <div class="mb-3">
-                <textarea name="message" class="form-control" rows="4" placeholder="Tu Mensaje" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-gradient">Enviar Mensaje</button>
+        /* Estilo para la sección de servicios */
+        #services {
+            background-color: #2a8c99;
+            padding: 40px 0;
+        }
+
+        /* Estilo para la sección de llamada a la acción */
+        .callout {
+            position: relative;
+            background-image: url('assets/img/CV.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Cubrir todo el área */
+            background-position: center; /* Centrar la imagen */
+            padding: 60px 0; /* Espaciado superior e inferior */
+            color: white; /* Color del texto */
+            text-align: center; /* Centrar el texto */
+        }
+
+        /* Fondo semi-transparente para mejorar la legibilidad del texto */
+        .callout::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
+            z-index: 1; /* Asegura que el fondo esté detrás del texto */
+        }
+
+        .container {
+            position: relative;
+            z-index: 2; /* Asegura que el texto esté encima del fondo */
+        }
+
+        button {
+            background-color: #007bff; /* Color del botón */
+            color: white; /* Color del texto del botón */
+            border: none; /* Sin borde */
+            padding: 10px 20px; /* Espaciado interno del botón */
+            font-size: 16px; /* Tamaño del texto del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+            transition: background-color 0.3s; /* Transición de color */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Color del botón al pasar el mouse */
+        }
+
+        /* Define un tamaño fijo para todos los cuadros */
+        .portfolio-item {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 300px; /* Ajusta la altura según sea necesario */
+            overflow: hidden; /* Evita que la imagen se desborde */
+        }
+
+        /* Ajusta la imagen para que ocupe todo el cuadro */
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Mejora la legibilidad de las letras y ajusta el fondo */
+        .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .caption-content {
+            color: #fff; /* Blanco para mejor contraste */
+            font-weight: bold;
+            opacity: 1; /* Totalmente visible */
+        }
+
+        /* Efecto hover para mostrar el texto */
+        .portfolio-item:hover .caption {
+            opacity: 1;
+        }
+
+        /* Fondo de la sección igual al footer */
+        #portfolio {
+            background-color: #333; /* Cambia el color según el que uses en tu footer */
+            padding: 60px 0; /* Espaciado superior e inferior */
+        }
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Dev. Pablo Morales</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Inicio</a></li>
+            <li class="sidebar-nav-item"><a href="#about">Sobre mí</a></li>
+            <li class="sidebar-nav-item"><a href="#services">Habilidades</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Proyectos</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1">Pablo Morales</h1>
+            <h3 class="mb-5"><em>
+                Soy un desarrollador web entusiasta, dedicado a diseñar experiencias digitales que sean tanto funcionales como visualmente atractivas</em></h3>
+            <a class="btn btn-primary btn-xl" href="#about">Conoce más sobre mí</a>
+        </div>
+    </header>
+    
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2>Sobre mí</h2>
+                    <p class="lead mb-5">
+                        Soy Pablo Morales, estudiante de Ingeniería Informática y desarrollador web. Me especializo en el desarrollo de aplicaciones web y tengo experiencia en HTML, CSS, JavaScript y Python. También gestiono bases de datos con MySQL y aplico programación orientada a objetos en mis proyectos. Además de la programación, disfruto de los videojuegos, el fútbol y tocar la guitarra. Siempre busco aprender y mejorar en mis habilidades, y estoy comprometido con crear soluciones digitales innovadoras y funcionales.
+                    </p>
+                    <a class="btn btn-dark btn-xl" href="#services">Mis habilidades</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services-->
+    <section class="content-section text-center" id="services">
+        <div class="container">
+            <div class="content-section-heading">
+                <h2 class="text-secondary mb-5" style="color: #ffc107; font-size: 2.5rem;">Mi Stack</h2>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <!-- Item 1 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-filetype-html"></i>
+                    </div>
+                    <h4>HTML</h4>
+                </div>
+                <!-- Item 2 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-filetype-css"></i>
+                    </div>
+                    <h4>CSS</h4>
+                </div>
+                <!-- Item 3 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                </div>
+                <!-- Item 4 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-filetype-py"></i>
+                    </div>
+                    <h4>Python</h4>
+                </div>
+                <!-- Item 5 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-git"></i>
+                    </div>
+                    <h4>Git</h4>
+                </div>
+                <!-- Item 6 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-terminal"></i>
+                    </div>
+                    <h4>Linux</h4>
+                </div>
+                <!-- Item 7 -->
+                <div class="mb-5 d-flex flex-column align-items-center">
+                    <div class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-3" 
+                         style="width: 100px; height: 100px; background-color: #fff; color: #2a8c99; font-size: 2.5rem;">
+                        <i class="bi bi-bootstrap"></i>
+                    </div>
+                    <h4>Bootstrap</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio-->
+    <section class="content-section bg-light" id="portfolio">
+        <div class="container">
+            <h2 class="text-secondary text-center mb-5" style="color: #ffc107; font-size: 2.5rem;">Proyectos</h2>
+            <div class="row gx-4 gx-lg-5">
+                <!-- Proyecto 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img class="img-fluid" src="assets/img/proyecto1.jpg" alt="Proyecto 1" />
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Proyecto 1</h3>
+                                <p><a href="https://github.com/usuario/proyecto1" target="_blank">Ver en GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img class="img-fluid" src="assets/img/proyecto2.jpg" alt="Proyecto 2" />
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Proyecto 2</h3>
+                                <p><a href="https://github.com/usuario/proyecto2" target="_blank">Ver en GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img class="img-fluid" src="assets/img/proyecto3.jpg" alt="Proyecto 3" />
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Proyecto 3</h3>
+                                <p><a href="https://github.com/usuario/proyecto3" target="_blank">Ver en GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img class="img-fluid" src="assets/img/proyecto4.jpg" alt="Proyecto 4" />
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Proyecto 4</h3>
+                                <p><a href="https://github.com/usuario/proyecto4" target="_blank">Ver en GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action-->
+    <div class="callout">
+        <div class="container text-center">
+            <h2 class="callout-heading">Descarga mi CV</h2>
+            <p class="callout-text">Si deseas conocer más sobre mi trayectoria profesional y mis habilidades, puedes descargar mi CV haciendo clic en el botón de abajo.</p>
+            <a class="btn btn-primary btn-xl" href="assets/cv.pdf" download>Descargar CV</a>
+        </div>
+    </div>
+
+    <!-- Contact-->
+    <section class="content-section" id="contact">
+        <div class="container">
+            <h2 class="text-secondary text-center mb-5" style="color: #ffc107; font-size: 2.5rem;">Contacto</h2>
+            <form id="contactForm" method="post" action="contact.php">
+                <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" />
+                </div>
+                <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Correo electrónico" required="required" />
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Mensaje" required="required"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-xl" type="submit">Enviar mensaje</button>
+                </div>
             </form>
-          </section>
-          
+        </div>
+    </section>
 
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <style>
-                .footer {
-                    background-color: #333; /* Color de fondo sólido (ajusta según tu diseño) */
-                    color: white; /* Color del texto */
-                    padding: 20px 0; /* Espaciado superior e inferior */
-                }
-        
-                .social-link {
-                    color: white; /* Color de los íconos sociales */
-                    font-size: 24px; /* Tamaño del ícono */
-                    transition: color 0.3s; /* Transición de color */
-                }
-        
-                .social-link:hover {
-                    color: #007bff; /* Color al pasar el mouse sobre los íconos */
-                }
-        
-                .text-muted {
-                    color: rgba(255, 255, 255, 0.6); /* Color del texto copyright con opacidad */
-                }
-            </style>
-        
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle mr-3" href="https://www.instagram.com/ing_pablo_morales_17/?igsh=dDM5bzdidjZhZWxv"><i class="icon-social-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/pablo-morales17/"><i class="icon-social-linkedin"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle" href="https://github.com/Morales17-svg"><i class="icon-social-github"></i></a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; 2024 Pablo Morales. Todos los derechos reservados.</p>
+    <!-- Footer-->
+    <footer class="bg-dark py-4">
+        <div class="container text-center">
+            <p class="m-0 text-white">© 2024 Pablo Morales. Todos los derechos reservados.</p>
+            <p class="m-0 text-white"><a href="https://github.com/usuario" target="_blank">GitHub</a></p>
+            <div class="social-icons">
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-github"></i></a>
             </div>
-        </footer>
-        
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </footer>
+
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
